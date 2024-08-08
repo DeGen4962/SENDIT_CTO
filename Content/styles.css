@@ -66,27 +66,27 @@ body{
 }
 
 #I{
-    transform: translate(0px, 8px) rotate(-5deg);
+    transform: translate(0px, 8px) rotate(0deg);
 }
 
 #T{
-    transform: translate(0px, 8px) rotate(5deg);
+    transform: translate(-2px, 14px) rotate(10deg);
 }
 
 #C{
-    transform: translate(-2px,14px) rotate(10deg);
+    transform: translate(-3px,23px) rotate(15deg);
 }
 
 #T1{
-    transform: translate(-3px, 23px) rotate(15deg);
-}
-
-#O{
     transform: translate(-6px, 40px) rotate(20deg);
 }
 
+#O{
+    transform: translate(-13px, 60px) rotate(25deg);
+}
+
 #lore{
-    position: absolute;
+    position: fixed;
     width: 200px;
     top: 50%;
     right: 20%;
