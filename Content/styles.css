@@ -15,12 +15,18 @@ body{
     background-color: #1eccfe;
 }
 
-.cat_image{
-    background-color: #1eccfe;
+@media(max-width: 600px){
+    .cat_image #cat{
+        height: 1em;
+        width: 1em;
+    }
+    #banner{
+        font-size: small;
+    }
 }
 
-.cat_image p{
-    float: inline-end;
+.cat_image{
+    background-color: #1eccfe;
 }
 
 .memes{
@@ -55,7 +61,7 @@ body{
     font-style: normal;
     text-align: center; 
     padding-top: 100px;
-    font-size: 70px; 
+    font-size: 5em; 
     color: white; 
     background-color: #1eccfe;
   }
