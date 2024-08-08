@@ -1,0 +1,59 @@
+html {
+    background-color: #1eccfe;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+span{
+    display: inline-block;
+}
+
+.cat_image{
+    background-color: #1eccfe;
+}
+
+#S{
+    transform: translate(13px,60px) rotate(-25deg);
+}
+
+#E{
+    transform: translate(6px, 40px) rotate(-20deg);
+}
+
+#N{
+    transform: translate(3px, 23px) rotate(-15deg);
+}
+
+#D{
+    transform: translate(2px, 14px) rotate(-10deg);
+}
+
+#I{
+    transform: translate(0px, 8px) rotate(-5deg);
+}
+
+#T{
+    transform: translate(0px, 8px) rotate(5deg);
+}
+
+#C{
+    transform: translate(-2px,14px) rotate(10deg);
+}
+
+#T1{
+    transform: translate(-3px, 23px) rotate(15deg);
+}
+
+#O{
+    transform: translate(-6px, 40px) rotate(20deg);
+}
+
+
+#cat{
+    height: 600px;
+    width:600px;
+    margin-left: 30%;
+}
