@@ -38,16 +38,10 @@ body{
         background-color: #1eccfe;
     }
 
-    .memes{
-        display: flex;
-    }
-
-    .column #meme{
-        flex: 15%;
-        padding: 5px;
-        height: 50px;
-        width: 50px;
-        border-radius: 25%;
+    .memes #meme{
+        display: inline-block;
+        height: 30%;
+        width: 30%;
     }
 
     #CA{
