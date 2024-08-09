@@ -15,13 +15,45 @@ body{
     background-color: #1eccfe;
 }
 
-@media(max-width: 600px){
+@media (max-width: 600px){
     .cat_image #cat{
-        height: 1em;
-        width: 1em;
+        height: 300px;
+        width: 300px;
+        margin-left: 35%;
+        margin-top: 15%;
     }
     #banner{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 42%;
+    }
+
+    .peralta-regular #lore{
+        font-family: "Peralta", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center; 
+        font-size: 5em; 
+        color: black; 
+        background-color: #1eccfe;
+    }
+
+    .memes{
+        display: flex;
+    }
+
+    .column #meme{
+        flex: 15%;
+        padding: 5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 25%;
+    }
+
+    #CA{
+        text-align: center;
         font-size: small;
+        padding-bottom: 100px;
     }
 }
 
